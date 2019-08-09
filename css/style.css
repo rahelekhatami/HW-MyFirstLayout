@@ -40,12 +40,13 @@ body{
     margin: 0;
     padding: 0;
     margin-bottom: 25px;
+    widows: 100%;
   
     
 
 }
 .wrapper{
-   width: 800px;
+   width: 60%;
    margin: 0 auto;
 }
 .wrapper h1{
@@ -86,6 +87,7 @@ body{
 .line:after{
    content: '';
    background: #F9AF6D;
+   background-image: linear-gradient(brown, #F9AF6D 10%, gray);
    height: 25px;
    transition: 0.8s;
    display: block;
@@ -201,6 +203,10 @@ li a:hover {
    display: flex;
    flex-flow: row wrap;
    list-style-type: none;
+  }
+
+  .progressbar {
+     width:100%;
   }
   
  
